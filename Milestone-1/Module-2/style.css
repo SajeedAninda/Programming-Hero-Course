@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow, green);
+    height: 100vh;
+}
+
+.blog {
+    background-color: aquamarine;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.second {
+    /* display: inline-block; */
+    width: 300px;
+    box-shadow: 10px 10px 20px red;
+    margin: 20px auto;
+    border-radius: 5px 30px 5px 30px;
+    padding: 10px;
+    text-align: center; 
+}
+
+.third {
+    width: 300px;
+    margin: 20px auto;
+    /* display: inline-block; */
+    box-shadow: -10px 10px 20px green;
+}

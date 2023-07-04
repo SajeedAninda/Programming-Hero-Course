@@ -1,0 +1,15 @@
+.thirdPara{
+    width:40%;
+    background: linear-gradient(#e66465, #c4a912c9);
+    height: 200px;
+    border-left: 7px dotted white;
+    border-radius: 0px 20px 20px 0px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+.thirdPara p{
+    padding-top: 76px;
+    color:whitesmoke;
+}

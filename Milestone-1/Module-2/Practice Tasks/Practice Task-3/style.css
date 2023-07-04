@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+#mainHeading {
+    text-align: center;
+    margin-top: 30px;
+    color: brown;
+}
+
+p {
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
+.firstPara {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.secondPara {
+    background: rgb(34, 175, 41);
+    background: linear-gradient(90deg, rgba(34, 175, 41, 1) 0%, rgba(0, 168, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.thirdPara {
+    background: rgb(175, 34, 122);
+    background: linear-gradient(90deg, rgba(175, 34, 122, 1) 0%, rgba(255, 0, 26, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.onlyDiv {
+    text-align: center;
+    padding:20px;
+    background: rgb(146, 229, 217);
+    background: linear-gradient(90deg, rgba(146, 229, 217, 1) 0%, rgba(129, 59, 125, 1) 0%, rgba(145, 51, 60, 1) 100%);
+    width:40%;
+    margin:0 auto;
+    border-left: 7px dotted white;
+    border-radius: 0px 20px 20px 0px;
+    color:aliceblue;
+    font-weight: bolder;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+}

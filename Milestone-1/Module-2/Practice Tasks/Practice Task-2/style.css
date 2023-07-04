@@ -1,0 +1,28 @@
+body{
+    background-color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color:brown;
+    text-align: center;
+    font-size: 3rem;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    color:crimson;
+    font-size: 1.5rem;
+}
+ul li{
+    color:rgb(155, 44, 44);
+    /* list-style: none; */
+}
+.lists{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+}
+li{
+    text-align: left;
+}

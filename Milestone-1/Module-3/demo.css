@@ -1,11 +1,18 @@
 body{
     background-color: blanchedalmond;
 }
-h2{
+h2, h3{
     color:brown;
     text-align: center;
 }
-p{
-    color: rgb(34, 140, 233);
+.container{
     text-align: center;
+}
+ul{
+    color: rgb(34, 140, 233);
+    display: inline-block;
+    text-align: left;
+}
+li{
+    font-size: 1.5rem;
 }

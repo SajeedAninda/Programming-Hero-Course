@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Task 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            border: 2px solid black;
+            padding: 35px;
+            border-radius: 10px;
+            height: 100vh;
+            width: 97%;
+            margin: 0 auto;
+            display: flex;
+            gap: 10px;
+        }
+        .boxes{
+            border-radius: 10px;
+            height: 100%;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1{
+            width: 30%;
+            background-color: rgb(212, 209, 209);
+        }
+        .box2{
+            width: 70%;
+            background-color:antiquewhite;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+                flex-direction: column;
+            }
+            .box1 , .box2{
+                width: 100%;
+            }
+            .box1{
+                height: 30%;
+            }
+            .box2{
+                height: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes box1">Left</div>
+        <div class="boxes box2">Right</div>
+    </div>
+</body>
+</html>

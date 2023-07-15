@@ -66,7 +66,7 @@ body {
     font-size: 1.5rem;
     border-radius: 10px;
     /* text-align: center; */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -75,4 +75,31 @@ body {
 .day{
     background-color: rgb(212, 200, 200);
     font-size: 1.7rem;
-} */
+/* } */ 
+
+.grid{
+    height: 100px;
+}
+.grid-1{
+    background-color: red;
+    grid-column: 1/4;
+}
+
+.grid-2{
+    background-color: green;
+    grid-column: 1/2;
+}
+
+.grid-3{
+    background-color: yellow;
+}
+
+.grid-4{
+    background-color: blue;
+    grid-column: 1/4;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    gap: 10px;
+}

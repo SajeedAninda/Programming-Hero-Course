@@ -13,4 +13,4 @@ let totalOrangePrice = (orangePrice * orangeRequired);
 let totalMoney = 500;
 let totalPeople = 10;
 let eachPerson = totalMoney / totalPeople;
-console.log(eachPerson);
+// console.log(eachPerson);

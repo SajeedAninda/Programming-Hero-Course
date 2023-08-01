@@ -68,3 +68,51 @@
 //         console.log(price[i]);
 //     }
 // }
+
+// 10. Say you have x amount of money, if you have more than 80,000 you will buy a gaming desktop if you have less than 80 but more than 60k then you will buy a gaming laptop and so on
+// let budget = 45000;
+// if (budget >= 80000) {
+//     console.log("I will buy a gaming Desktop");
+// }
+// else if (budget >= 60000) {
+//     console.log("I will buy a gaming laptop");
+// }
+// else if (budget >= 40000) {
+//     console.log("I will buy a lenovo yoga");
+// }
+// else if (budget >= 20000) {
+//     console.log("I will buy an used Laptop");
+// }
+// else {
+//     console.log("I will buy a mobile phone");
+// }
+
+// 11. Declare a variable 
+// let x;
+// x = 5;
+// console.log(x);
+
+// 12. How can you find out type of a variable? 
+// let x = 5;
+// let y = "Aninda";
+// let z = true;
+// console.log(typeof x);
+// console.log(typeof y);
+// console.log(typeof z);
+
+// Challange -1 
+// let myWork = ["১) রাত ৮ টা বাজে মডিউল আনলক করো", "২) ফটাফট ভিডিও দেখে দেখে প্রাকটিস করো", "৩) ভিডিও দেখতে দেখতে নোটস নাও", "4) মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো", "৫) কোন কিছু বুঝতে না পারলে (চিন্তা করে দেখো এইখানে কিন্তু একটা শর্ত আছে ), সাপোর্ট সেশনে জয়েন করো"];
+
+// for (let i = 0; i < myWork.length; i++) {
+//     console.log(myWork[i]);
+// }
+
+// let i = myWork.length;
+// while (i >= 0) {
+//     console.log(myWork[i]);
+//     i--;
+// }
+
+// for (let i = myWork.length; i >= 0; i--) {
+//     console.log(myWork[i]);
+// }

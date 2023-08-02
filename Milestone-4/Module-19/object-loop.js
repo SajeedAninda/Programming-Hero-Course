@@ -19,6 +19,6 @@ for (let i = 0; i < objValues.length; i++) {
 
 for (let propertyName in details) {
     let propertyValue = details[propertyName];
-    console.log(propertyName, ":", propertyValue);
+    // console.log(propertyName, ":", propertyValue);
 
 }

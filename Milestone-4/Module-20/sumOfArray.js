@@ -34,3 +34,4 @@ function oddSums(arr) {
 console.log(oddSums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 console.log(oddSums([12, 2, 32, 44, 56, 66, 78, 82, 94, 100]));
 console.log(oddSums([5, 7, 8, 10, 45, 30]));
+console.log(oddSums([12, 65, 45, 78, 32, 45, 91]));

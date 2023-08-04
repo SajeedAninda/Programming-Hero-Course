@@ -7,6 +7,6 @@ function largestName(name) {
     }
     return longest;
 }
-let nameArray = ["Anik", "Aninda", "Romel", "Sami", "Osi", "Ahnaf", "Zidan", "ajcja"];
+let nameArray = ["Anik", "Aninda", "Romel", "Sami", "Osi", "Ahnaf", "Zidan", "jjnajcadja"];
 let result = largestName(nameArray);
 console.log(result);

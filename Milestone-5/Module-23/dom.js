@@ -1,12 +1,13 @@
-console.log("Hello From Js");
-let lists = document.getElementsByTagName('li');
-// console.log(lists);
-for (let li of lists) {
-    console.log(li.innerText);
+let sections=document.querySelectorAll("section");
+for(let section of sections){
+    section.style.border="2px solid red";
+    section.style.marginBottom="5px";
+    section.style.borderRadius="10px";
+    section.style.padding="10px";
 }
-
-let headings=document.getElementsByTagName('h1');
-// console.log(headings);
-for(let heading of headings){
-    console.log(heading.innerText);
-}
+let jalali=document.querySelector(".jalali-set");
+// jalali.style.backgroundColor="red";
+jalali.style.padding="20px";
+jalali.classList.add("yellow-bg");
+jalali.classList.remove("jalali-set");
+console.log(jalali.getAttribute("class"));

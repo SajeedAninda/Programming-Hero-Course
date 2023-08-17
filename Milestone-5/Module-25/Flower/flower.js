@@ -29,12 +29,14 @@ document.querySelector("#btn4").addEventListener("click", function () {
 document.querySelector("#discountBtn").addEventListener("click", function () {
     let inputValue = document.querySelector("#inputField").value;
     let noDiscount = document.querySelector(".no-discount");
-    totalCost = totalCost - ((totalCost * 30) / 100);
-    document.querySelector("#inputField").value = "";
+
     if (inputValue === "aNiNda27") {
-        costField.innerText = totalCost;
-    }
-    else {
+        totalCost = totalCost - ((totalCost * 30) / 100);
+        costField.innerText = totalCost.toFixed(2);
+    } else {
         noDiscount.innerText = "No Discount For You";
     }
+
+    document.querySelector("#inputField").value = "";
 })
+

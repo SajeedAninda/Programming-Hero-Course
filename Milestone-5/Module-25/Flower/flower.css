@@ -1,0 +1,148 @@
+/* INSTAGRAM section  */
+.instagram-section {
+    height: 100vh;
+    background-color: white;
+    margin: 0px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.insta-info {
+    text-align: center;
+}
+
+.insta-info h2 {
+    color: #272727;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.insta-info p {
+    color: rgba(78, 78, 78, 0.6);
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.insta-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.boxinsta {
+    width: 250px;
+    height: 320px;
+}
+
+.boxinsta:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.instabox-1 {
+    background: url("../assets/Flower\ 01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instabox-2 {
+    background: url("../assets/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instabox-3 {
+    background: url("../assets/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instabox-4 {
+    background: url("../assets/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.newBtn {
+    padding: 15px 25px;
+    background-color: #E55473;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.newBtn:hover {
+    background-color: #e791a3;
+    transition: 0.2s;
+}
+
+.newDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.newDiv h2 {
+    text-align: center;
+    color: #272727;
+}
+
+/* LATEST DEALS SECTION  */
+.latest-deal-container {
+    height: 50vh;
+    background: url("../assets/Rectangle\ 9.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0px 150px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.latest-deal-container h2 {
+    color: #272727;
+    font-size: 35px;
+}
+
+.latest-deal-container p {
+    color: rgba(78, 78, 78, 0.6);
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.deal-inputs {
+    width: 80%;
+}
+
+.latest-deal-container input {
+    width: 70%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.latest-deal-container button {
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.latest-deal-container button:hover {
+    background-color: #e791a3;
+    transition: 0.2s;
+}

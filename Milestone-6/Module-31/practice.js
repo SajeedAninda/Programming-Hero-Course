@@ -131,5 +131,9 @@ const employees = [
 // }
 // console.log(ageSum);
 
-let ageSum=employees.reduce(prev,curr=>(employees.age,0));
+let ageSum = employees.reduce((accumulator, employee) => {
+    accumulator += employee.age;
+    return accumulator;
+}, 0);
+
 console.log(ageSum);

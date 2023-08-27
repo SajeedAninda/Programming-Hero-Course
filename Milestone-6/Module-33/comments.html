@@ -4,33 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Load Todo</title>
+    <title>Document</title>
     <style>
-        #todo-container{
+        .comments-container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
         }
-        .box-styling{
-            background-color: rgb(226, 203, 173);
-            padding: 10px;
-            margin: 10px;
+
+        .comments-box {
+            background-color: bisque;
+            padding: 7px;
+            margin: 15px;
             border: 2px solid black;
             border-radius: 10px;
-            text-align: center;
+        }
+        .comments-box h4{
+            display: inline-block;
         }
     </style>
 </head>
 
 <body>
-    <section class="todo-section">
-        <h1>Things to do</h1>
-        <div id="todo-container">
+    <section>
+        <div class="comments-container">
 
         </div>
     </section>
 
-    <!-- <script src="todo.js"></script> -->
-    <script src="test.js"></script>
+    <script src="comments.js"></script>
 </body>
 
 </html>

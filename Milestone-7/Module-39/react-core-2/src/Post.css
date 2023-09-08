@@ -1,0 +1,9 @@
+.postStyle{
+    text-align: left;
+    border: 2px solid orange;
+    background-color:bisque;
+    color: brown;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}

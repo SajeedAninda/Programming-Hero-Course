@@ -1,7 +1,7 @@
 export default function FriendData({ friendData }) {
     let { name, email } = friendData;
     let friendsContainerStyle = {
-        border: "2px solid orange",
+        border: "2px solid red",
         padding: "10px",
         borderRadius: "20px 40px",
         marginTop: "20px"

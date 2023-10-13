@@ -23,6 +23,7 @@ const Users = () => {
             {data.map(item => (
                 <p key={item._id}>
                     {item.name} : {item.email} 
+                    <Link to={`/users/${item._id}`}><button>Update</button></Link>
                     <button onClick={() => handleRemove(item._id)}>X</button>
                 </p>
             ))}

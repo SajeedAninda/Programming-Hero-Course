@@ -9,6 +9,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import UsersDetails from './UsersDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,13 @@ const router = createBrowserRouter([
       },
       {
         path: "/users",
+        loader: ()=>fetch("https://jsonplaceholder.typicode.com/users"),
         element: <Users></Users>,
+      },
+      {
+        path: "/users/:usersDetails",
+        loader: ({params})=>fetch(`https://jsonplaceholder.typicode.com/users/${params.usersDetails}`),
+        element: <UsersDetails></UsersDetails>,
       },
     ]
   },

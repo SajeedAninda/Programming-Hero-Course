@@ -6,6 +6,7 @@ const auth = getAuth(app);
 const Register = () => {
     let [loginError, setLoginError] = useState("");
     let [registerSuccess, setRegisterSuccess] = useState("");
+    let [showPass, setShowPass] = useState(false);
 
     let handleForm = (e) => {
         e.preventDefault();
@@ -13,6 +14,10 @@ const Register = () => {
         let password = e.target.password.value;
         if (password.length <= 5) {
             return alert("Password Should be more than 6 letters");
+        }
+        else if (!/^(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=!]).*$/.test(password)) {
+            alert("Please Provide one Capital Letter, One Number and One Symbol");
+            return;
         }
         setLoginError("");
         setRegisterSuccess("");
@@ -51,7 +56,12 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="password" placeholder="password" name='password' required className="input input-bordered" />
+                                <input type={showPass ? "text" : "password"} placeholder="password" name='password' required className="input input-bordered" />
+                                <p className='cursor-pointer' onClick={() => { setShowPass(!showPass) }}>{showPass ? "Hide Password" : "Show Password"}</p>
+                                <div className='flex gap-2 items-center'>
+                                    <input type="checkbox" name="" id="terms" />
+                                    <label htmlFor="" id='terms'>Accept our terms and Conditions</label>
+                                </div>
                                 <label className="label">
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>

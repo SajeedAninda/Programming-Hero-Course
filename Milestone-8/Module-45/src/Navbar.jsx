@@ -1,5 +1,6 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, NavLink } from "react-router-dom";
 import React from 'react';
+import "./Navbar.css"
 
 const Navbar = () => {
     return (
@@ -8,10 +9,10 @@ const Navbar = () => {
                 <h1 className="text-3xl">My Website</h1>
             </div>
             <div className="flex gap-6 text-2xl font-bold">
-                <Link to="/">Home</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/form">Form</Link>
-                <Link to="/users">Users</Link>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/form">Form</NavLink>
+                <NavLink to="/users">Users</NavLink>
             </div>
         </nav>
     );

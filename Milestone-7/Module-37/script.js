@@ -205,3 +205,15 @@
 
 // let number=-5;
 // number >= 0 ? console.log("Number is positive") : console.log("Number is negative");
+// const array = [];
+// array.forEach(element => {
+//   console.log(element);
+// });
+
+// let name="Hero";
+// let age=34;
+// let person ={name,age};
+// console.log(person);
+
+let person=null;
+console.log(person?person:"person null");
